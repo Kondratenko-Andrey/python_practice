@@ -63,5 +63,6 @@ class B(A):
 
 
 my_obj = B()
+print(dir(my_obj))
 my_obj.test_sum_1()
 my_obj.test_sum_2()
