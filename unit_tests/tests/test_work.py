@@ -1,4 +1,4 @@
-from work import *
+from unit_tests.work.work import *
 import unittest
 
 data = {
