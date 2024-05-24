@@ -16,3 +16,7 @@ class TestMaxNumberApp(unittest.TestCase):
         response_text = response.data.decode()
         correct_answer_str = f'<i>{max(numbers)}</i>'
         self.assertTrue(correct_answer_str in response_text)
+
+
+if __name__ == '__main__':
+    unittest.main()
